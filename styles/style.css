@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.projetos {
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+.projetos ul li{
+    
+}
+
+.projetos a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: red;
+    display: block;
+    /*padding: 1rem;
+    border-bottom: 1px solid white;*/
+    margin: 20px;
+}
